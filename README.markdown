@@ -11,7 +11,7 @@ Set up your pre-requisites
 * Install Docker - https://docs.docker.com/installation/
 * Install nsenter - https://github.com/jpetazzo/nsenter - optional, but useful for easier console sessions within your Docker container
 
-Then to use it
+Then to try this example
 
 * `declare -x VAGRANT_DEFAULT_PROVIDER="docker"` # Set the environment variable VAGRANT_DEFAULT_PROVIDER to docker
 * `git clone http://github.com/muness/vagrant-docker-rails-example`
