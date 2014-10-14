@@ -16,6 +16,7 @@ Then to use it
 * `git clone http://github.com/muness/vagrant-docker-rails-example`
 * `cd vagrant-docker-rails-example`
 * `vagrant up` # to start your container including a rails server. this will run bundle install too on boot up
+* `vagrant up --debug | tee logs/vagrant-up.log` # you'll need this sooner or later. ;)
 * `docker-enter test-app` # get a bash session in your container via nsenter. Your app is at /usr/src/app. You can then `cd /usr/src/app ; rails c` to get a rails console
 * `vagrant reload` # restart your rails server
 * `vagrant destroy` # to kill your image
