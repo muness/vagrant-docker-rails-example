@@ -1,8 +1,8 @@
-== What is this?
+# What is this?
 
 A bare bones example for developing a Rails app using Vagrant and Docker
 
-== Getting up and running
+# Getting up and running
 
 Pre-requisites
 
