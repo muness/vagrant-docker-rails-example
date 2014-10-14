@@ -13,6 +13,7 @@ Set up your pre-requisites
 
 Then to use it
 
+* Set the environment variable VAGRANT_DEFAULT_PROVIDER to `declare -x VAGRANT_DEFAULT_PROVIDER="docker"`
 * `git clone http://github.com/muness/vagrant-docker-rails-example`
 * `cd vagrant-docker-rails-example`
 * `vagrant up` # to start your container including a rails server. this will run bundle install too on boot up
